@@ -1,0 +1,164 @@
+.btn-back{
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 15px;
+    border: 1px solid #c4c4c4;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    color: #B0926A;
+    transition: 0.5s;
+}
+
+.btn-back:hover{
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.145);
+    transform: translateX(-5px);
+}
+
+.con-detail{
+    display: flex;
+    gap: 40px;
+    margin-top: 52px;
+    padding: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+}
+
+.detail-left img{
+    width: 100%;
+    height: auto;
+}
+
+.name-katalog{
+    font-size: 32px;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+.about-katalog{
+    font-size: 22px;
+    color: #797979;
+    margin-top: 16px;
+}
+
+.size-product{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4b4b4b;
+    margin-top: 6px;
+}
+
+.price-katalog{
+    font-size: 24px;
+    color: #4b4b4b;
+    margin-top: 22px;
+}
+
+.text-information{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    margin-top: 28px;
+}
+
+.text-information span{
+    color: #FF2828;
+}
+
+.button-contact{
+    background-color: #B0926A;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin-top: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.button-contact:hover{
+    animation: skew-x-shake 1s;
+}
+
+@keyframes skew-x-shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+
+@media only screen and (max-width: 1000px) {
+    .name-katalog{
+        font-size: 26px;
+    }
+
+    .about-katalog{
+        font-size: 18px;
+    }
+
+    .price-katalog{
+        font-size: 18px;
+    }
+
+    .button-contact{
+        font-size: 18px;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .con-detail{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+@media only screen and (max-width: 550px) {
+    .con-detail{
+        gap: 14px;
+        margin-top: 30px;
+    }
+
+    .btn-back{
+        font-size: 30px;
+    }
+
+    .about-katalog{
+        margin-top: 8px;
+    }
+
+    .button-contact{
+        width: 100%;
+    }
+
+    .size-product{
+        font-size: 14px;
+        font-weight: 400;
+        color: #4b4b4b;
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .con-detail{
+        gap: 14px;
+        margin-top: 30px;
+    }
+
+    .name-katalog{
+        font-size: 20px;
+    }
+
+    .about-katalog{
+        font-size: 14px;
+    }
+
+    .price-katalog{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .button-contact{
+        font-size: 16px;
+    }
+}
