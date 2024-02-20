@@ -1,87 +1,99 @@
 let data_product = [
   {
-    link: "/Detail Produk/katalog1.html",
-    img: "./Assets/Katalog/katalog1.jpg",
-    name: "Katalog 1",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
-  },
-  {
-    link: "/Detail Produk/katalog2.html",
+    link: "Detail-Produk/katalog2.html",
     img: "./Assets/Katalog/katalog2.jpg",
-    name: "Katalog 2",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    name: "Paper Bag Haji dan Umroh",
+    category: "Paper Bag",
+    size: "Ukuran : 27cm X 32cm X 7cm",
+    price: "Rp 17.000/lusin"
   },
   {
-    link: "/Detail Produk/katalog3.html",
+    link: "Detail-Produk/katalog3.html",
     img: "./Assets/Katalog/katalog3.jpg",
-    name: "Katalog 3",
+    name: "Paper Bag Terimakasih",
+    category: "Paper Bag",
     size: "Ukuran : 20cm X 20cm",
     price: "Rp 2.000/pcs"
   },
   {
-    link: "/Detail Produk/katalog4.html",
+    link: "Detail-Produk/katalog4.html",
     img: "./Assets/Katalog/katalog4.jpg",
-    name: "Katalog 4",
+    name: "Tas Paper Bag Brownies",
+    category: "Paper Bag",
     size: "Ukuran : 20cm X 20cm",
     price: "Rp 2.000/pcs"
   },
   {
-    link: "/Detail Produk/katalog5.html",
-    img: "./Assets/Katalog/katalog5.jpg",
-    name: "Katalog 5",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    link: "Detail-Produk/katalog1.html",
+    img: "./Assets/Katalog/katalog1.jpg",
+    name: "Tas Spunbond Motif Pita",
+    category: "Tas Spunbond",
+    size: "Ukuran : 30cm X 38cm X 10cm",
+    price: "Rp 4.500/pcs"
   },
   {
-    link: "/Detail Produk/katalog6",
+    link: "Detail-Produk/katalog6.html",
     img: "./Assets/Katalog/katalog6.jpg",
-    name: "Katalog 6",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    name: "Tas Spunbond",
+    category: "Tas Spunbond",
+    size: "Ukuran : 30cm X 35cm",
+    price: "Rp 4.500/pcs"
   },
   {
-    link: "/Detail Produk/katalog7.html",
-    img: "./Assets/Katalog/katalog7.jpg",
-    name: "Katalog 7",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
-  },
-  {
-    link: "/Detail Produk/katalog8.html",
+    link: "Detail-Produk/katalog8.html",
     img: "./Assets/Katalog/katalog8.jpg",
-    name: "Katalog 8",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    name: "Tas SPunbond Motif",
+    category: "Tas Spunbond",
+    size: "Ukuran : 20cm X 25cm X 5cm",
+    price: "Rp 4.700/pcs"
   },
   {
-    link: "/Detail Produk/katalog9.html",
+    link: "Detail-Produk/katalog17.html",
+    img: "./Assets/Katalog/katalog17.jpg",
+    name: "Tas Spunbond Mika",
+    category: "Tas Spunbond",
+    size: "Ukuran : 25cm X 30cm X 24cm",
+    price: "Rp 5.000/pcs"
+  },
+  {
+    link: "Detail-Produk/katalog7.html",
+    img: "./Assets/Katalog/katalog7.jpg",
+    name: "Tas Spunbond Mika",
+    category: "Tas Spunbond",
+    size: "Ukuran : 25cm X 30cm X 14cm",
+    price: "Rp 4.700/pcs"
+  },
+  {
+    link: "Detail-Produk/katalog5.html",
+    img: "./Assets/Katalog/katalog5.jpg",
+    name: "Tas Spunbond",
+    category: "Tas Spunbond",
+    size: "Ukuran : 23cm X 23cm X 30cm",
+    price: "Rp 4.000/pcs"
+  },
+  {
+    link: "Detail-Produk/katalog9.html",
     img: "./Assets/Katalog/katalog9.jpg",
-    name: "Katalog 9",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    name: "Tas Spunbond",
+    category: "Tas Spunbond",
+    size: "Ukuran : 23cm X 23cm X 30cm",
+    price: "Rp 4.000/pcs"
   },
   {
-    link: "/Detail Produk/katalog10.html",
+    link: "Detail-Produk/katalog10.html",
     img: "./Assets/Katalog/katalog10.jpg",
-    name: "Katalog 10",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    name: "Tas Spunbond Motif",
+    category: "Tas Spunbond",
+    size: "Ukuran : 23cm X 30cm X 12cm",
+    price: "Rp 3.250/pcs"
   },
   {
-    link: "/Detail Produk/katalog11.html",
-    img: "./Assets/Katalog/katalog11.jpg",
-    name: "Katalog 11",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
-  },
-  {
-    link: "Detail Produk/katalog12.html",
-    img: "./Assets/Katalog/katalog12.jpg",
-    name: "Katalog 12",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    link: "Detail-Produk/katalog20.html",
+    img: "./Assets/Katalog/katalog20.jpg",
+    name: "Tas Spunbond Motif",
+    category: "Tas Spunbond",
+    size: "Ukuran : 23cm X 30cm X 12cm",
+    price: "Rp 3.250/pcs"
   },
 ];
 
@@ -150,37 +162,3 @@ function toggleFAQ(card) {
     chevronIcon.classList.remove("rotate180");
   }
 }
-
-// // search
-// const filterSelect = document.getElementById("filter-produk");
-// const productContainer = document.getElementById("productCar");
-
-// filterSelect.addEventListener("change", function () {
-//   const selectedProduct = filterSelect.value;
-//   filterProducts(selectedProduct);
-// });
-
-// function filterProducts(selectedProduct) {
-//   const filteredProducts = data_product.filter((product) => {
-//     return selectedProduct === "all" || product.type === selectedProduct;
-//   });
-
-//   const fillProduct = filteredProducts.map(
-//     (data) => `
-//         <div class="card-product-car" onclick="window.location.href = '/detail-${data.type}';">
-//           <img src="${data.image}" alt="${data.alt}" class="img-car" />
-//           <p class="text-type-car">${data.title}</p>
-//           <p class="car-price">Mulai : ${data.price}</p>
-//           <div class="title-type-car">
-//             <iconify-icon icon="mdi:car-outline" class="icon" width="24px"></iconify-icon>
-//             <p>${data.desc}</p>
-//           </div>
-//         </div>
-//       `
-//   );
-
-//   productContainer.innerHTML = fillProduct.join("");
-// }
-
-// // Inisialisasi dengan menampilkan semua produk saat halaman dimuat.
-// filterProducts("all");

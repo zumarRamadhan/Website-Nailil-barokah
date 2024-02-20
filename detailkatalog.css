@@ -17,11 +17,12 @@
 
 .con-detail{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-top: 52px;
     padding: 20px;
     border: 1px solid #c4c4c4;
     border-radius: 20px;
+    width: 100%;
 }
 
 .detail-left img{
@@ -77,6 +78,13 @@
 
 .button-contact:hover{
     animation: skew-x-shake 1s;
+}
+
+.title-detail{
+    font-size: 24px;
+    color: #B0926A;
+    margin-top: 50px;
+    font-weight: 500;
 }
 
 @keyframes skew-x-shake {
@@ -154,7 +162,7 @@
     }
 
     .price-katalog{
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 12px;
     }
 

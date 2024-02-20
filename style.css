@@ -36,7 +36,7 @@ nav {
 nav .wrapper-nav {
   position: relative;
   max-width: 1440px;
-  padding: 10px 100px;
+  padding: 0px 100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -172,18 +172,18 @@ nav input {
   display: none;
 }
 
-.link-contact{
-    background-color: #b0926a;
-    color: white;
-    padding: 4px 10px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border-radius: 10px;
+.link-contact {
+  background-color: #b0926a;
+  color: white;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
 }
 
-.link-contact a{
-    color: white;
+.link-contact a {
+  color: white;
 }
 
 .container {
@@ -199,7 +199,7 @@ nav input {
     padding: 20px 50px 50px 50px;
   }
 
-  .link-contact{
+  .link-contact {
     /* display: none; */
     padding: 0 30px;
   }
@@ -213,7 +213,7 @@ nav input {
 /* end navbar */
 
 /* button whatsApp */
-.button-whatsapp{
+.button-whatsapp {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -224,61 +224,89 @@ nav input {
   cursor: pointer;
 }
 
-.text-whatsapp{
+.text-whatsapp {
   background-color: white;
   padding: 5px 20px;
-  color: #19D665;
+  color: #19d665;
   font-size: 16px;
   font-weight: 600;
+  border: 1px solid #cfcfcf;
   border-radius: 10px;
-  box-shadow:  0 0 25px rgba(0, 0, 0, 0.104);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.104);
 }
 
-.text-whatsapp:hover{
+.text-whatsapp:hover {
   animation: skew-x-shake 1s;
-  background-color: #19D665;
+  background-color: #19d665;
   color: white;
+  border: 1px solid #19d665;
 }
 
 @keyframes skew-x-shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
 }
 
-.whatsapp-icon{
+.whatsapp-icon {
   color: white;
   font-size: 34px;
-  background-color: #19D665;
+  background-color: #19d665;
   border-radius: 20px;
   padding: 15px;
   animation: jump-shaking 2s infinite;
 }
 
 @keyframes jump-shaking {
-  0% { transform: translateX(0) }
-  25% { transform: translateY(-9px) }
-  35% { transform: translateY(-9px) rotate(17deg) }
-  55% { transform: translateY(-9px) rotate(-17deg) }
-  65% { transform: translateY(-9px) rotate(17deg) }
-  75% { transform: translateY(-9px) rotate(-17deg) }
-  100% { transform: translateY(0) rotate(0) }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(-9px);
+  }
+  35% {
+    transform: translateY(-9px) rotate(17deg);
+  }
+  55% {
+    transform: translateY(-9px) rotate(-17deg);
+  }
+  65% {
+    transform: translateY(-9px) rotate(17deg);
+  }
+  75% {
+    transform: translateY(-9px) rotate(-17deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
 }
 
 @media only screen and (max-width: 700px) {
-  .button-whatsapp{
+  .button-whatsapp {
     right: 15px;
     bottom: 20px;
   }
 
-  .whatsapp-icon{
+  .whatsapp-icon {
     font-size: 28px;
   }
 
-  .text-whatsapp{
+  .text-whatsapp {
     font-size: 14px;
   }
 }
@@ -327,13 +355,13 @@ nav input {
 }
 
 @media only screen and (max-width: 1000px) {
-  .text-tagline{
+  .text-tagline {
     font-size: 22px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .con-header{
+  .con-header {
     flex-direction: column-reverse;
     width: 100%;
   }
@@ -342,29 +370,29 @@ nav input {
     width: 100%;
   }
 
-  .header-right{
+  .header-right {
     width: 85%;
   }
 
-  .text-tagline{
+  .text-tagline {
     width: 100%;
   }
 
-  .text-welcome{
+  .text-welcome {
     margin-top: 42px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .text-welcome{
+  .text-welcome {
     font-size: 20px;
   }
 
-  .name-brand{
+  .name-brand {
     font-size: 34px;
   }
 
-  .text-tagline{
+  .text-tagline {
     font-size: 18px;
   }
 }
@@ -398,26 +426,26 @@ nav input {
 }
 
 @media only screen and (max-width: 900px) {
-  .content-information{
+  .content-information {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap:25px;
+    grid-gap: 25px;
   }
 
-  .con-information{
+  .con-information {
     height: 290px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .amount{
+  .amount {
     font-size: 34px;
   }
 
-  .desc-amount{
+  .desc-amount {
     font-size: 18px;
   }
 
-  .con-information{
+  .con-information {
     height: 230px;
   }
 }
@@ -432,11 +460,11 @@ nav input {
   margin: 0;
 }
 
-.con-about .img{
+.con-about .img {
   width: 45%;
 }
 
-.img img{
+.img img {
   width: 100%;
   height: auto;
 }
@@ -461,8 +489,8 @@ nav input {
   text-align: justify;
 }
 
-.button-katalog{
-  background-color: #B0926A;
+.button-katalog {
+  background-color: #b0926a;
   padding: 5px 20px;
   font-size: 20px;
   margin-top: 25px;
@@ -471,77 +499,95 @@ nav input {
   font-weight: 600;
 }
 
-.button-katalog:hover{
+.button-katalog:hover {
   animation: skew-x-shake 1s;
 }
 
 @keyframes skew-x-shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
 }
 
-.run-text{
-    background-color: #f1f1f1;
-    padding: 10px;
-    color: #4b4b4b;
-    font-size: 18px;
+@media only screen and (max-width: 550px) {
+  .button-katalog{
+    font-size: 14px;
+  }
+}
+
+.run-text {
+  background-color: #f1f1f1;
+  padding: 10px;
+  color: #4b4b4b;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 900px) {
-  .con-about{
+  .con-about {
     flex-direction: column;
   }
 
-  .con-about .img{
+  .con-about .img {
     width: 100%;
   }
 
-  .con-about .img img{
+  .con-about .img img {
     aspect-ratio: 4/3;
   }
 
-  .content-about{
+  .content-about {
     width: 100%;
     padding: 60px;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .content-about{
+  .content-about {
     padding: 30px;
   }
 
-  .title-about{
+  .title-about {
     font-size: 36px;
   }
 
-  .desc-about{
+  .desc-about {
     font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .content-about{
+  .content-about {
     padding: 20px;
   }
 
-  .title-about{
+  .title-about {
     font-size: 26px;
   }
 
-  .desc-about{
+  .desc-about {
     font-size: 14px;
   }
 
-  .con-about .img img{
+  .con-about .img img {
     aspect-ratio: 16/12;
   }
-  
-  .run-text{
+
+  .run-text {
     font-size: 14px;
   }
 }
@@ -592,50 +638,49 @@ nav input {
 }
 
 @media only screen and (max-width: 900px) {
-  .card-service{
+  .card-service {
     padding: 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .con-service{
+  .con-service {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .title-service{
+  .title-service {
     font-size: 18px;
   }
 
-  .desc-service{
+  .desc-service {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .con-service{
+  .con-service {
     margin-top: 52px;
   }
 }
 /* end service section */
 
 /* title section */
-.title-section{
-    margin-top: 64px;
+.title-section {
+  margin-top: 64px;
 }
 
-.subtitle-section{
-    font-size: 36px;
-    font-weight: 600;
-    color: #b0926a;
-    text-align: center;
+.subtitle-section {
+  font-size: 32px;
+  font-weight: 600;
+  color: #b0926a;
+  text-align: center;
 }
 
-.desc-title-section{
-    font-size: 24px;
-    font-weight: 400;
-    color: #797979;
-    margin-top: 2px;
-    text-align: center;
+.desc-title-section {
+  font-size: 22px;
+  font-weight: 400;
+  color: #797979;
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
@@ -643,13 +688,13 @@ nav input {
     font-size: 32px;
   }
 
-  .desc-title-section{
+  .desc-title-section {
     font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .title-section{
+  .title-section {
     margin-top: 52px;
   }
 }
@@ -659,51 +704,51 @@ nav input {
     font-size: 22px;
   }
 
-  .desc-title-section{
+  .desc-title-section {
     font-size: 14px;
   }
 
-  .desc-title-section{
+  .desc-title-section {
     margin-top: 2px;
   }
 }
 /* end title section */
 
 /* map distribution section */
-.image-map img{
-    margin-top: 42px;
-    width: 100%;
-    height: auto;
+.image-map img {
+  margin-top: 42px;
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 700px) {
-  .image-map img{
+  .image-map img {
     margin-top: 26px;
   }
 }
 /* end map distributon section */
 
 /* collection section */
-.con-collection{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 42px;
-    width: 100%;
+.con-collection {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 42px;
+  width: 100%;
 }
 
-.con-collection .img img{
-    width: 100%;
-    height: auto;
-    transition: 0.5s;
+.con-collection .img img {
+  width: 100%;
+  height: auto;
+  transition: 0.5s;
 }
 
-.con-collection img:hover{
-    transform: scale(1.02);
+.con-collection img:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (max-width: 700px) {
-  .con-collection{
+  .con-collection {
     gap: 5px;
     margin-top: 26px;
   }
@@ -711,89 +756,90 @@ nav input {
 /* end collection section */
 
 /* product section */
-.con-product{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    margin-top: 42px;
+.con-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 42px;
 }
 
-.card-product{
-    border: 1px solid #c4c4c4;
-    border-radius: 20px;
-    padding: 15px;
-    cursor: pointer;
-    transition: 0.5s;
+.card-product {
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.card-product:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px #00000027;
+.card-product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px #00000027;
 }
 
-.name-product{
-    font-size: 24px;
-    font-weight: 600;
-    color: #4b4b4b;
-    margin-top: 16px;
+.name-product {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4b4b4b;
+  margin-top: 16px;
 }
 
-.price-product{
-    font-size: 22px;
-    font-weight: 400;
-    color: #4b4b4b;
-    margin-top: 12px;
+.price-product {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b0926a;
+  margin-top: 12px;
+  font-weight: 600;
 }
 
-.size-product{
-    font-size: 20px;
-    font-weight: 400;
-    color: #4b4b4b;
-    margin-top: 2px;
+.size-product {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b4b4b;
+  margin-top: 2px;
 }
 
-.image-product{
+.image-product {
   width: 100%;
   height: auto;
 }
 
 @media only screen and (max-width: 900px) {
-  .con-product{
+  .con-product {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:14px;
+    grid-gap: 14px;
     margin-top: 26px;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .con-product{
+  .con-product {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap:12px;
+    grid-gap: 12px;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .price-product{
+  .price-product {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .size-product {
+    font-size: 10px;
+  }
+
+  .name-product {
     font-size: 16px;
     margin-top: 4px;
   }
 
-  .size-product{
-    font-size: 14px;
-  }
-
-  .name-product{
-    font-size: 18px;
-    margin-top: 4px;
-  }
-
-  .card-product{
+  .card-product {
     padding: 8px;
     border-radius: 15px;
   }
 }
 
-.btn-katalog{
+.btn-katalog {
   background-color: white;
   width: 100%;
   color: #b0926a;
@@ -806,64 +852,64 @@ nav input {
   transition: 0.5s;
 }
 
-.btn-katalog:hover{
+.btn-katalog:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px #00000027;
 }
 /* end product section */
 
 /* contact section */
-.con-contact{
-    margin-top: 64px;
-    background: url(./Assets/bg-contact.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
-    border-radius: 20px;
+.con-contact {
+  margin-top: 64px;
+  background: url(./Assets/bg-contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 20px;
 }
 
-.text-contact{
-    color: white;
-    font-size: 22px;
+.text-contact {
+  color: white;
+  font-size: 22px;
 }
 
-.btn-contact{
-    background-color: white;
-    padding: 5px 50px;
-    border-radius: 10px;
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #b0926a;
-    box-shadow: 0 8px 25px #00000027;
-    transition: 0.5s;
+.btn-contact {
+  background-color: white;
+  padding: 5px 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #b0926a;
+  box-shadow: 0 8px 25px #00000027;
+  transition: 0.5s;
 }
 
-.btn-contact:hover{
-    transform: translateY(-5px);
+.btn-contact:hover {
+  transform: translateY(-5px);
 }
 
 @media only screen and (max-width: 700px) {
-  .btn-contact{
+  .btn-contact {
     width: 100%;
   }
 
-  .con-contact{
+  .con-contact {
     margin-top: 52px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .text-contact{
+  .text-contact {
     font-size: 14px;
     text-align: justify;
   }
 
-  .btn-contact{
+  .btn-contact {
     font-size: 16px;
   }
 
-  .con-contact{
+  .con-contact {
     padding: 20px;
   }
 }
@@ -891,7 +937,7 @@ nav input {
 .title-tokopedia {
   font-size: 22px;
   font-weight: 600;
-  color: #60BB55;
+  color: #60bb55;
   text-align: center;
   margin-top: 14px;
 }
@@ -899,7 +945,7 @@ nav input {
 .title-shopee {
   font-size: 22px;
   font-weight: 600;
-  color: #F1582C;
+  color: #f1582c;
   text-align: center;
   margin-top: 14px;
 }
@@ -912,7 +958,7 @@ nav input {
   margin-top: 14px;
 }
 
-.logo-online-shop{
+.logo-online-shop {
   width: 100%;
   height: auto;
 }
@@ -929,43 +975,48 @@ nav input {
   box-shadow: 0 8px 25px #00000027;
 }
 
-.logo-online-shop{
+.logo-online-shop {
   width: 25%;
   height: auto;
 }
 
 @media only screen and (max-width: 700px) {
-  .con-online-shop{
+  .con-online-shop {
     margin-top: 26px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .card-online-shop{
+  .card-online-shop {
     padding: 20px;
   }
 
-  .logo-online-shop{
+  .logo-online-shop {
     width: 50%;
     height: auto;
   }
 
-  .title-shopee{
+  .title-shopee {
     font-size: 16px;
   }
 
-  .title-tokopedia{
+  .title-tokopedia {
+    font-size: 16px;
+  }
+
+  .title-instagram {
     font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .con-online-shop{
+  .con-online-shop {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
   }
 
-  .logo-online-shop{
-    width: 25%;
+  .logo-online-shop {
+    width: 20%;
     height: auto;
   }
 }
@@ -987,7 +1038,7 @@ nav input {
   cursor: pointer;
 }
 
-.card-faq:hover{
+.card-faq:hover {
   box-shadow: 0 8px 25px #00000027;
 }
 
@@ -1002,12 +1053,12 @@ nav input {
   display: none;
 }
 
-.text-faq{
+.text-faq {
   font-size: 22px;
   color: #797979;
 }
 
-.question{
+.question {
   font-size: 22px;
   color: #4b4b4b;
 }
@@ -1018,123 +1069,123 @@ nav input {
 
 @media only screen and (max-width: 1100px) {
   .title-faq-quiz {
-      font-size: 26px;
+    font-size: 26px;
   }
 
   .card-faq .question {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .text-faq {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .title-faq-quiz {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .card-faq .question {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .text-faq {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (max-width: 750px) {
   .title-faq-quiz {
-      font-size: 22px;
+    font-size: 22px;
   }
 
   .card-faq .question {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .text-faq {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .card-faq {
-      padding: 10px;
+    padding: 10px;
   }
 
   .general-question {
-      gap: 10px;
-      margin-top: 20px;
+    gap: 10px;
+    margin-top: 20px;
   }
 
   .title-faq-quiz {
-      font-size: 20px;
+    font-size: 20px;
   }
 
-  .text-faq{
-      font-size: 14px;
-      color: #797979;
+  .text-faq {
+    font-size: 14px;
+    color: #797979;
   }
-  
-  .card-faq .question{
-      font-size: 14px;
-      color: #4b4b4b;
+
+  .card-faq .question {
+    font-size: 14px;
+    color: #4b4b4b;
   }
 }
 /* end faq */
 
 /* map */
-.map{
-    width: 100%;
-    margin-top: 64px;
-    border-radius: 20px;
+.map {
+  width: 100%;
+  margin-top: 64px;
+  border-radius: 20px;
 }
 
-.desc-location{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 20px;
-    margin-top: 18px;
-    gap: 20px;
+.desc-location {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  margin-top: 18px;
+  gap: 20px;
 }
 
-.icon-location{
-    color: white;
-    background-color: #b0926a;
-    padding: 10px;
-    font-size: 30px;
-    border-radius: 10px;
+.icon-location {
+  color: white;
+  background-color: #b0926a;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
 }
 
-.desc-location p{
-    font-size: 20px;
-    font-weight: 400;
-    color: #4b4b4b;
+.desc-location p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4b4b4b;
 }
 
 @media only screen and (max-width: 700px) {
-  .map{
+  .map {
     margin-top: 52px;
   }
 
-  .desc-location{
+  .desc-location {
     margin-top: 4px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .desc-location p{
+  .desc-location p {
     font-size: 12px;
   }
 
-  .icon-location{
+  .icon-location {
     font-size: 20px;
   }
 
-  .map{
+  .map {
     height: 350px;
   }
 }
@@ -1257,64 +1308,90 @@ nav input {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .con-search-filter {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .con-search-filter .search input[type="text"] {
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
 /* end search filter */
+
+/* header katalog */
+.header-katalog {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #c4c4c4;
+}
+/* end header katalog */
 
 /* footer */
 
 footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #b0926a;
-    padding: 40px 60px 20px 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #b0926a;
+  padding: 40px 60px 20px 60px;
 }
 
 footer p {
-    color: #fff;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
 }
 
-footer a{
-    color: #f0cd9f;
+footer a {
+  color: #f0cd9f;
 }
 
 .line-footer {
-    width: 100%;
-    height: 1px;
-    background-color: #C4C4C4;
-    margin: 30px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #c4c4c4;
+  margin: 30px 0;
 }
 
-footer .img{
-    max-width: 80%;
+footer .img {
+  max-width: 80%;
 }
 
-footer .img img{
-    width: 100%;
-    height: auto;
+footer .img img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 800px) {
-    footer {
-        padding: 20px 30px;
-    }
+  footer {
+    padding: 20px 30px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    footer .img{
-        max-width: 50%;
-    }
+  footer .img {
+    max-width: 50%;
+  }
 
-    footer p{
-      font-size: 14px;
-    }
+  footer p {
+    font-size: 14px;
+  }
 }
-
 /* end footer */
