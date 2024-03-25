@@ -852,6 +852,13 @@ nav input {
   transition: 0.5s;
 }
 
+@media only screen and (max-width: 600px) {
+  .btn-katalog{
+    font-size: 16px;
+    border-radius: 10px;
+  }
+}
+
 .btn-katalog:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px #00000027;
@@ -1104,6 +1111,10 @@ nav input {
     font-size: 16px;
   }
 
+  .card-faq{
+    border-radius: 10px;
+  }
+
   .text-faq {
     font-size: 16px;
   }
@@ -1169,10 +1180,16 @@ nav input {
 @media only screen and (max-width: 700px) {
   .map {
     margin-top: 52px;
+    border-radius: 10px;
   }
 
   .desc-location {
     margin-top: 4px;
+    border-radius: 10px;
+  }
+
+  .icon-location{
+    border-radius: 5px;
   }
 }
 

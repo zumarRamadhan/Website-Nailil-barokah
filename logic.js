@@ -12,16 +12,16 @@ let data_product = [
     img: "./Assets/Katalog/katalog3.jpg",
     name: "Paper Bag Terimakasih",
     category: "Paper Bag",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    size: "Ukuran : 17cm X 23cm X 5cm",
+    price: "Rp 275/pcs"
   },
   {
     link: "Detail-Produk/katalog4.html",
     img: "./Assets/Katalog/katalog4.jpg",
     name: "Tas Paper Bag Brownies",
     category: "Paper Bag",
-    size: "Ukuran : 20cm X 20cm",
-    price: "Rp 2.000/pcs"
+    size: "Ukuran : 35cm X 14cm X 18cm",
+    price: "Rp 15.000/lusin"
   },
   {
     link: "Detail-Produk/katalog1.html",
@@ -128,8 +128,8 @@ document.addEventListener("DOMContentLoaded", () => {
        }
       }, step);
     }
-    counter("count1", 260, 600, 800);
-    counter("count2", 0, 40, 2500);
+    counter("count1", 400, 1000, 800);
+    counter("count2", 0, 100, 2500);
     counter("count3", 0, 16, 2500);
     counter("count4", 0, 19, 2500);
    });
